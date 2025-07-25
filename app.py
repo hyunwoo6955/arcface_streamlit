@@ -38,8 +38,8 @@ def get_face_embedding(image_bytes):
 # 🚀 Streamlit UI
 st.title("🧑‍💻 얼굴 유사도 판별 (FAISS)")
 st.image(
-    ["AnthonyJoshua.jpg","AnthonyJoshua.jpg","ChrisEvans.jpg","FrancisNgannou.png"],
-    caption=["AnthonyJoshua.jpg","AnthonyJoshua.jpg","ChrisEvans.jpg","FrancisNgannou.png"],
+    ["AnthonyJoshua.jpg","ArnoldSchwarzenegger.jpg","ChrisEvans.jpg","FrancisNgannou.png"],
+    caption=["AnthonyJoshua.jpg","ArnoldSchwarzenegger.jpg","ChrisEvans.jpg","FrancisNgannou.png"],
     #use_column_width=True
     width=300
 )
